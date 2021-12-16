@@ -32,4 +32,4 @@ superset init
 
 echo "Running tests"
 
-eval 'pytest --durations=0 --maxfail=1 --cov=superset $@'
+pytest --durations=0 --maxfail=1 --cov=superset "$@"
